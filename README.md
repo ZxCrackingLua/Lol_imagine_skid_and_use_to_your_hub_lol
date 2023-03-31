@@ -3,8 +3,8 @@
 --- this for car dealership tycoon
 
 
-codes = {"Drifting","Season3","200Trophies","Season3Soon","Hey2023","7Quests","XmasIncoming","HyperDealer","Tstingray","FOXZIE","4Years"}
-
+codes = {"Drifting","Season3","CriminalVan","Helicopter","Hey2023","7Quests","XmasIncoming","HyperDealer","Tstingray","FOXZIE","4Years"}
+       
 
 for _, v in pairs(codes) do
 pcall(function() game:GetService("ReplicatedStorage").Remotes.Code:FireServer(v)    end)
