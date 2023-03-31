@@ -1,1 +1,11 @@
-# Lol_imagine_skid_and_use_to_your_hub_lol
+--- Open Source made by 03.s#6260
+--- CREATOR 03.s#6260
+--- this for car dealership tycoon
+
+
+codes = {"Drifting","Season3","200Trophies","Season3Soon","Hey2023","7Quests","XmasIncoming","HyperDealer","Tstingray","FOXZIE","4Years"}
+
+
+for _, v in pairs(codes) do
+pcall(function() game:GetService("ReplicatedStorage").Remotes.Code:FireServer(v)    end)
+end
